@@ -1,5 +1,5 @@
 # imdb-sentiment-analysis
-This is an application uses the IMDB Movie dataset to build a simple model that can classify if a movie review is positive or negative and is deployed using FastAPI.
+This is an application uses the [IMDB Movie dataset](https://www.kaggle.com/c/word2vec-nlp-tutorial/data?ref=hackernoon.com) from Kaggle to build a simple model that can classify if a movie review is positive or negative and is deployed using FastAPI.
 
 ## Running the app
 To run the app locally, follow these steps:
