@@ -21,7 +21,7 @@ app = FastAPI(
 from pathlib import Path
 
 # Get the absolute path to the sentiment model file
-model_path = Path("C:\\Users\\Asus\\imdb-sentiment-analysis\\python-fun\\sentiment_model_pipeline.pkl")
+model_path = Path("C:\\Users\\Asus\\imdb-sentiment-analysis\\dataset\\sentiment_model_pipeline.pkl")
 
 # Load the sentiment model
 with open(model_path, "rb") as f:

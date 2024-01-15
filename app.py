@@ -36,7 +36,7 @@ warnings.filterwarnings("ignore")
 np.random.seed(123)
 
 # load data
-data = pd.read_csv("C:\\Users\\Asus\\imdb-sentiment-analysis\\python-fun\\labeledTrainData.tsv", sep='\t')
+data = pd.read_csv("C:\\Users\\Asus\\imdb-sentiment-analysis\\dataset\\labeledTrainData.tsv", sep='\t')
 
 # check the shape of the data
 data.shape
@@ -109,4 +109,4 @@ accuracy_score(y_valid,y_preds)
 
 #save model
 import joblib
-joblib.dump(sentiment_classifier, "C:\\Users\\Asus\\imdb-sentiment-analysis\\python-fun\\sentiment_model_pipeline.pkl")
+joblib.dump(sentiment_classifier, "C:\\Users\\Asus\\imdb-sentiment-analysis\\dataset\\sentiment_model_pipeline.pkl")
