@@ -2,10 +2,8 @@
 This is an application uses the IMDB Movie dataset to build a simple model that can classify if a movie review is positive or negative and is deployed using FastAPI.
 
 ## Running the app
-
-### To run
-
 To run the app locally, follow these steps:
+0. Change the file paths according to your own system.
 
 1. Clone this repo
 ```sh
