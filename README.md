@@ -10,7 +10,7 @@ git clone git@github.com:thebardofavon/imdb-sentiment-analysis
 ```
 2. Change into the directory and install the dependencies using the following command
 ```sh
-npm install -r requirements.txt
+pip install -r requirements.txt
 ```
 3. Change the file paths according to your own system in main.py and app.py.
 4. Run following command to run app.py
